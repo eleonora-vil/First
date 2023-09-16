@@ -34,6 +34,23 @@
 #header > .header-top > .login:hover, #header > .header-bottom > .cart:hover {
   background-color: rgba(255,255,255,0.5);
 }
+
+#header > .header-bottom > .search-container {
+  display: flex;
+  height: 30px;
+}
+
 #header > .header-bottom > .search-container > .search {
-  width: 300px;
+  width: 400px;
+  border: none;
 } 
+#header > .header-bottom > .search-container > .search-button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: yellow;
+  color: orange;
+  border: none;
+  height: 100%;
+  width: 60px;
+}
