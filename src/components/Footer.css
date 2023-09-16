@@ -1,24 +1,21 @@
-#footer {
+#footer{
     background-color: antiquewhite;
     padding: 20px 500px;
     display: flex;
     gap: 130px;
     position: fixed;
     bottom: 0;
-    width: 100%;    
+    width: 100%;  
 }
-
-#footer > .info-section {
+#footer>.container{
     display: flex;
     flex-direction: column;
     gap: 5px;
 }
-
-#footer > .info-section > .title {
-    color: red;
-    font-weight: 900;
+#footer>.container>.title{
+    color: #ff6348;
 }
-
-#footer > .info-section > .content {
-    color: gray;
+#footer>.container>ul{
+    padding: 0px;
+    list-style: none;
 }

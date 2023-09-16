@@ -1,33 +1,25 @@
 import React from "react";
-import "./Navbar.css"
+import "./Navbar.css";
 
-function Navbar() {
+export default function Navbar() {
   return (
-    <nav id="navbar">
-      <div className="category">
-        <span className="category-trigger">Danh muc san pham</span>
-        <ul className="category-list">
-          <li>ABC</li>
-          <li>ABC</li>
-          <li>ABC</li>
-          <li>ABC</li>
-          <li>ABC</li>
-          <li>ABC</li>
-          <li>ABC</li>
-          <li>ABC</li>
-          <li>ABC</li>
+    <div id="navbar">
+      <div className="menu">
+        <div className="menu-button">☰ Menu </div>
+        <ul className="menu-list">
+          <li>Cage</li>
+          <li>Bird</li>
+          <li>Type</li>
+          <li>Acesstory</li>
         </ul>
       </div>
-      <ul className="tabs">
-        <li>Trang chu</li>
-        <li>Gioi thieu</li>
-        <li>Gioi thieu</li>
-        <li>Gioi thieu</li>
-        <li>Gioi thieu</li>
-      </ul>
-      <button>Lien he</button>
-    </nav>
+      <nav className="nav">
+        <div>Home</div>
+        <div>About us</div>
+        <div>Contact</div>
+        <div>Custom</div>
+        <div>More</div>
+      </nav>
+    </div>
   );
 }
-
-export default Navbar;
