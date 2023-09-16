@@ -1,0 +1,39 @@
+#header {
+  background-color: black;
+  width: 100%;
+  padding: 10px 500px;
+}
+
+#header > .header-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+}
+
+#header > .header-top > .contact > .phone {
+  color: yellow;
+}
+
+#header > .header-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+}
+#header > .header-top > .login {
+  background-color: transparent;
+  color: white;
+  border: none;
+}
+#header > .header-bottom > .cart{
+  background-color: transparent;
+  color: white;
+  border: none;
+}
+#header > .header-top > .login:hover, #header > .header-bottom > .cart:hover {
+  background-color: rgba(255,255,255,0.5);
+}
+#header > .header-bottom > .search-container > .search {
+  width: 300px;
+} 
