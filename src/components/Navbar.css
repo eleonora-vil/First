@@ -1,53 +1,41 @@
-#navbar {
-  display: flex;
-  align-items: center;
-  padding: 0 500px;
-  background-color: antiquewhite;
+#navbar{
+    display: flex;
+    background-color: #bdb4b4;
+    width: 100%;
+    padding: 0px 300px;
+}
+#navbar>.menu{
+    background-color: #ffa502;
+    margin-left: 0px;
+    position: relative;
+}
+#navbar>.menu > .menu-button{
+    padding: 10px;
+    width: 250px;
+}
+#navbar>.menu>.menu-list{
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    list-style: none;
+    flex-direction: column;
+    padding: 0px;
+    background-color: #ffa502;
+    width: 100%;
+    border:1px solid black;
+}
+#navbar> .menu>.menu-list>li{
+    border:1px solid black;
+    padding: 20px;
+}
+#navbar>.nav{
+    display: flex;
+    gap: 40px;
+    margin-left: 40px;
+    align-items: center;
 }
 
-#navbar > .category {
-  position: relative;
-}
-
-#navbar > .category:hover > .category-list {
-  display: flex;
-}
-
-#navbar > .category > .category-trigger {
-  background-color: orange;
-  height: 100%;
-  display: block;
-  padding: 10px;
-  font-weight: 900;
-}
-
-#navbar > .category > .category-list {
-  position: absolute;
-  top: 100%;
-  left: 0;
-  background-color: white;
-  width: 100%;
-  list-style: none;
-  display: none;
-  flex-direction: column;
-  gap: 1;
-  justify-content: start;
-  padding: 0;
-}
-
-#navbar > .category > .category-list > li {
-  background-color: antiquewhite;
-  padding: 10px;
-  border: 1px solid gray;
-}
-
-#navbar > .category > .category-list > li:hover {
-  background-color: white;
-}
-
-#navbar > .tabs {
-  display: flex;
-  list-style: none;
-  gap: 10px;
-  flex-grow: 1;
+#navbar>.menu:hover > .menu-list {
+    display: flex;
 }

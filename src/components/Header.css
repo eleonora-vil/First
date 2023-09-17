@@ -1,56 +1,63 @@
-#header {
-  background-color: black;
-  width: 100%;
-  padding: 10px 500px;
+#header{
+    display: flex;
+    background-color: black;
+    width: 100%;
+    padding: 5px 300px;
+    flex-direction: column;
 }
-
-#header > .header-top {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  color: white;
+#header > .header-top{
+    display: flex;
+    justify-content: space-between;
 }
-
-#header > .header-top > .contact > .phone {
-  color: yellow;
+#header > .header-top > .service{
+    
+    font: bold;
+    color:white ;
 }
-
-#header > .header-bottom {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  color: white;
+#header > .header-top > .service> .phone{
+    color: yellow;
 }
-#header > .header-top > .login {
-  background-color: transparent;
-  color: white;
-  border: none;
+#header> .header-top> .login{
+    border: none;
+    background-color: black;
+    color: aliceblue;
+    
 }
-#header > .header-bottom > .cart{
-  background-color: transparent;
-  color: white;
-  border: none;
+#header> .header-top >.login:hover{
+    background-color: rgb(86, 65, 39);
+}   
+#header> .header-bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
 }
-#header > .header-top > .login:hover, #header > .header-bottom > .cart:hover {
-  background-color: rgba(255,255,255,0.5);
+#header> .header-bottom>.logo{
+    font-size: xx-large;
+    color: #ff7f50;
 }
-
-#header > .header-bottom > .search-container {
-  display: flex;
-  height: 30px;
+#header>.header-bottom>.search-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-
-#header > .header-bottom > .search-container > .search {
-  width: 400px;
-  border: none;
-} 
-#header > .header-bottom > .search-container > .search-button{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: yellow;
-  color: orange;
-  border: none;
-  height: 100%;
-  width: 60px;
+#header>.header-bottom>.search-container>.search-bar{
+    height: 35px;
+    width: 600px;
+    border: none;
+}
+#header>.header-bottom>.search-container>.search-button{
+    border: none;
+    padding: 0;
+    height: 35px;
+    width: 60px;
+    background-color: #eccc68   ;
+}
+#header>.header-bottom>.cart-button{
+    background-color: black;
+    color: aliceblue;
+    border: none;
+}
+#header>.header-bottom>.cart-button:hover{
+    background-color: rgb(113, 88, 56);
 }
