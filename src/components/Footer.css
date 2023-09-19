@@ -6,6 +6,7 @@
     position: fixed;
     bottom: 0;
     width: 100%;  
+    padding: 5px 300px;
 }
 #footer>.container{
     display: flex;

@@ -39,3 +39,6 @@
 #navbar>.menu:hover > .menu-list {
     display: flex;
 }
+#navbar>.nav>.nav-content:hover{
+    color: rgb(224, 42, 42);
+}
