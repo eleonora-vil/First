@@ -14,11 +14,11 @@ export default function Navbar() {
         </ul>
       </div>
       <nav className="nav">
-        <div>Home</div>
-        <div>About us</div>
-        <div>Contact</div>
-        <div>Custom</div>
-        <div>More</div>
+        <div className="nav-content">Home</div>
+        <div className="nav-content">About us</div>
+        <div className="nav-content">Contact</div>
+        <div className="nav-content">Custom</div>
+        <div className="nav-content">More</div>
       </nav>
     </div>
   );
