@@ -11,7 +11,7 @@ export default function Body() {
       </div>
       <div className="body-bottom">
         <div className="service">
-          <div className="service-img">
+          {/* <div className="service-img">
             <img
               className="img"
               src="https://longchim.vn/wp-content/uploads/2023/05/mien-phi-doi-tra.jpg"
@@ -24,7 +24,7 @@ export default function Body() {
               className="img"
               src="https://longchim.vn/wp-content/uploads/2023/05/giao-hang-toan-quoc.jpg"
             />
-          </div>
+          </div> */}
         </div>
         <div className="des">
           <h2>Bica – Shop Mua Bán Lồng Chim Đẹp Giá Rẻ & Cao Cấp</h2>
