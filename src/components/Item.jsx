@@ -15,12 +15,10 @@ export default function Item() {
             />
           </div>
           <div className="item-detail">
-            <div className="title">
-              <b> Lồng cu gáy quả đào 02 đặc biệt</b>
-            </div>
+            <div className="title">Lồng cu gáy quả đào 02 đặc biệt</div>
             <div className="price">
-              <div>2.700.000đ</div>
-              <div>2.000.000đ</div>
+              <div className="cost">2.700.000đ</div>
+              <div className="discount">2.000.000đ</div>
             </div>
             <table className="table">
               <tr>
@@ -30,7 +28,7 @@ export default function Item() {
                   </p>
                 </td>
                 <td>
-                  <span className="value">ST001</span>
+                  <span className="value"> ST001</span>
                 </td>
               </tr>
               <tr>
@@ -60,16 +58,14 @@ export default function Item() {
           <div className="item-img">
             <img
               className="img"
-              src="https://longchim.vn/wp-content/uploads/2023/05/long-cu-gay-qua-dao-02-1.jpg"
+              src="https://longchim.vn/wp-content/uploads/2023/06/long-tran-cu-gay.jpg"
             />
           </div>
           <div className="item-detail">
-            <div className="title">
-              <b> Lồng cu gáy quả đào 02 đặc biệt</b>
-            </div>
+            <div className="title">Lồng cu gáy quả đào 02 đặc biệt</div>
             <div className="price">
-              <div>2.700.000đ</div>
-              <div>2.000.000đ</div>
+              <div className="cost">2.700.000đ</div>
+              <div className="discount">2.000.000đ</div>
             </div>
             <table className="table">
               <tr>
@@ -79,7 +75,7 @@ export default function Item() {
                   </p>
                 </td>
                 <td>
-                  <span className="value">ST001</span>
+                  <span className="value"> ST001</span>
                 </td>
               </tr>
               <tr>
@@ -109,16 +105,14 @@ export default function Item() {
           <div className="item-img">
             <img
               className="img"
-              src="https://longchim.vn/wp-content/uploads/2023/05/long-cu-gay-qua-dao-02-1.jpg"
+              src="https://longchim.vn/wp-content/uploads/2023/05/long-mat-cat-nan-lui-1.jpg"
             />
           </div>
           <div className="item-detail">
-            <div className="title">
-              <b> Lồng cu gáy quả đào 02 đặc biệt</b>
-            </div>
+            <div className="title">Lồng cu gáy quả đào 02 đặc biệt</div>
             <div className="price">
-              <div>2.700.000đ</div>
-              <div>2.000.000đ</div>
+              <div className="cost">2.700.000đ</div>
+              <div className="discount">2.000.000đ</div>
             </div>
             <table className="table">
               <tr>
@@ -128,7 +122,7 @@ export default function Item() {
                   </p>
                 </td>
                 <td>
-                  <span className="value">ST001</span>
+                  <span className="value"> ST001</span>
                 </td>
               </tr>
               <tr>
@@ -158,16 +152,14 @@ export default function Item() {
           <div className="item-img">
             <img
               className="img"
-              src="https://longchim.vn/wp-content/uploads/2023/05/long-cu-gay-qua-dao-02-1.jpg"
+              src="https://longchim.vn/wp-content/uploads/2023/05/long-cu-gay-song-hong-sieu-ben-2.jpg"
             />
           </div>
           <div className="item-detail">
-            <div className="title">
-              <b> Lồng cu gáy quả đào 02 đặc biệt</b>
-            </div>
+            <div className="title">Lồng cu gáy quả đào 02 đặc biệt</div>
             <div className="price">
-              <div>2.700.000đ</div>
-              <div>2.000.000đ</div>
+              <div className="cost">2.700.000đ</div>
+              <div className="discount">2.000.000đ</div>
             </div>
             <table className="table">
               <tr>
@@ -177,7 +169,7 @@ export default function Item() {
                   </p>
                 </td>
                 <td>
-                  <span className="value">ST001</span>
+                  <span className="value"> ST001</span>
                 </td>
               </tr>
               <tr>
@@ -207,16 +199,14 @@ export default function Item() {
           <div className="item-img">
             <img
               className="img"
-              src="https://longchim.vn/wp-content/uploads/2023/05/long-cu-gay-qua-dao-02-1.jpg"
+              src="https://longchim.vn/wp-content/uploads/2023/05/long-cu-gay-qua-dao-xuoi-1.jpg"
             />
           </div>
           <div className="item-detail">
-            <div className="title">
-              <b> Lồng cu gáy quả đào 02 đặc biệt</b>
-            </div>
+            <div className="title">Lồng cu gáy quả đào 02 đặc biệt</div>
             <div className="price">
-              <div>2.700.000đ</div>
-              <div>2.000.000đ</div>
+              <div className="cost">2.700.000đ</div>
+              <div className="discount">2.000.000đ</div>
             </div>
             <table className="table">
               <tr>
@@ -226,7 +216,7 @@ export default function Item() {
                   </p>
                 </td>
                 <td>
-                  <span className="value">ST001</span>
+                  <span className="value"> ST001</span>
                 </td>
               </tr>
               <tr>

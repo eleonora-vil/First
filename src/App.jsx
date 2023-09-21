@@ -12,9 +12,6 @@ function App() {
       <Body />
       <Item />
       <Item />
-      <Item />
-      <Item />
-      <Item />
       <Footer />
     </div>
   );

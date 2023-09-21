@@ -6,7 +6,7 @@
 }
 #item-container>.name{
     padding-left: 20px;
-    background-color:#e83737;
+    background-color:#58c0c7;
     color: white;
     font: bold;
 }
@@ -21,12 +21,18 @@
     border: black 5px;
     
 }
+#item-container>.item-list> .item:hover{
+    border: 1px solid #312f2f;
+    
+}
 #item-container>.item-list>.item>.item-img>.img{
     padding-top: 20px;
 }
 #item-container>.item-list>.item>.item-detail>.title{
     color: black;
-    font-weight: 300;
+    font-weight: 700;
+    text-wrap: wrap;
+    padding: 10px;
 
 }
 #item-container>.item-list>.item>.item-detail>.table{
@@ -35,7 +41,15 @@
 }
 #item-container>.item-list>.item>.item-detail>.price{
     text-align: left;
+    padding: 10px;
 }
-#item-container>.item-list>.item>.item-detail>.table>.value{
-    margin-left: 10px;
+#item-container>.item-list>.item>.item-detail>.price>.cost{
+    text-decoration: line-through;
+    color: #a9a9a9;
 }
+#item-container>.item-list>.item>.item-detail>.price>.discount{
+    font-weight:1000;
+    color: #ea1717;
+}
+
+

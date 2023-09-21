@@ -1,11 +1,11 @@
 #navbar{
     display: flex;
-    background-color: #bdb4b4;
+    background-color: #adebf0;
     width: 100%;
     padding: 0px 300px;
 }
 #navbar>.menu{
-    background-color: #ffa502;
+    background-color: #2FC8C4;
     margin-left: 0px;
     position: relative;
 }
@@ -21,7 +21,7 @@
     list-style: none;
     flex-direction: column;
     padding: 0px;
-    background-color: #ffa502;
+    background-color:#2FC8C4;
     width: 100%;
     border:1px solid black;
 }

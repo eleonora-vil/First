@@ -21,3 +21,6 @@
     padding: 0px;
     list-style: none;
 }
+#footer>.container>.content>.detail:hover{
+    color: #fb8b77;
+}

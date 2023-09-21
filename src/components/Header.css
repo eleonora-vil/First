@@ -15,7 +15,7 @@
     color:white ;
 }
 #header > .header-top > .service> .phone{
-    color: yellow;
+    color: rgb(114, 247, 240);
 }
 #header> .header-top> .login{
     border: none;
@@ -24,7 +24,8 @@
     
 }
 #header> .header-top >.login:hover{
-    background-color: rgb(86, 65, 39);
+    color: rgb(148, 201, 204);
+    text-decoration: underline;
 }   
 #header> .header-bottom{
     display: flex;
@@ -34,7 +35,8 @@
 }
 #header> .header-bottom>.logo{
     font-size: xx-large;
-    color: #ff7f50;
+    font-family: 'Fuggles', cursive;
+    color: #30e7ff;
 }
 #header>.header-bottom>.search-container{
     display: flex;
@@ -51,7 +53,10 @@
     padding: 0;
     height: 35px;
     width: 60px;
-    background-color: #eccc68   ;
+    background-color: #a8f5ff   ;
+}
+#header>.header-bottom>.search-container>.search-button:hover{
+    background-color: #32ffee   ;
 }
 #header>.header-bottom>.cart-button{
     background-color: black;
@@ -59,5 +64,6 @@
     border: none;
 }
 #header>.header-bottom>.cart-button:hover{
-    background-color: rgb(113, 88, 56);
+    color: rgb(148, 201, 204);
+    background-color: rgb(65, 65, 65);
 }
