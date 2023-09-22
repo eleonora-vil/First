@@ -1,10 +1,11 @@
 import React from "react";
 import "./Item.css";
-export default function Item() {
+import PropTypes from "prop-types";
+export default function Item(props) {
   return (
     <div id="item-container">
       <div className="name">
-        <h3>LỒNG CU GÁY</h3>
+        <h3>{props.itemName}</h3>
       </div>
       <div className="item-list">
         <div className="item">
@@ -250,3 +251,6 @@ export default function Item() {
     </div>
   );
 }
+Item.propTypes = {
+  itemName: PropTypes.string.isRequired,
+};

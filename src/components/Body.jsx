@@ -15,7 +15,7 @@ export default function Body() {
             <img
               className="img"
               src="https://longchim.vn/wp-content/uploads/2023/05/mien-phi-doi-tra.jpg"
-            />
+            />  
             <img
               className="img"
               src="https://longchim.vn/wp-content/uploads/2023/05/thanh-toan-linh-hoat.jpg"

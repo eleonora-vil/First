@@ -10,8 +10,8 @@ function App() {
       <Header />
       <Navbar />
       <Body />
-      <Item />
-      <Item />
+      <Item itemName="LỒNG CU GÁY" />
+      <Item itemName="LỒNG GÁY CU" />
       <Footer />
     </div>
   );
