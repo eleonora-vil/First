@@ -18,7 +18,6 @@ export default function Home() {
                     <div className="des">
                         <h2>Bica – Shop Mua Bán Lồng Chim Đẹp Giá Rẻ & Cao Cấp</h2>
                     </div>
-                    <div className="content"></div>
                 </div>
                 <CardList itemName="HELLO" />
                 <CardList itemName="HELLO" />
