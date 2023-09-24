@@ -8,7 +8,7 @@ export default function Header() {
           Chăm sóc khách hàng
           <span className="phone"> 0334567856</span>
         </div>
-        <a href="Login.jsx" className="login">
+        <a href="/Login.jsx" className="login">
           Login
         </a>
       </section>
