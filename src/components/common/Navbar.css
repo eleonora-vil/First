@@ -1,19 +1,19 @@
-#navbar{
+#navbar {
     display: flex;
     background-color: #adebf0;
     width: 100%;
     padding: 0px 300px;
 }
-#navbar>.menu{
-    background-color: #2FC8C4;
+#navbar > .menu {
+    background-color: #2fc8c4;
     margin-left: 0px;
     position: relative;
 }
-#navbar>.menu > .menu-button{
+#navbar > .menu > .menu-button {
     padding: 10px;
     width: 250px;
 }
-#navbar>.menu>.menu-list{
+#navbar > .menu > .menu-list {
     display: none;
     position: absolute;
     top: 100%;
@@ -21,24 +21,24 @@
     list-style: none;
     flex-direction: column;
     padding: 0px;
-    background-color:#2FC8C4;
+    background-color: #2fc8c4;
     width: 100%;
-    border:1px solid black;
+    border: 1px solid black;
 }
-#navbar> .menu>.menu-list>li{
-    border:1px solid black;
+#navbar > .menu > .menu-list > li {
+    border: 1px solid black;
     padding: 20px;
 }
-#navbar>.nav{
+#navbar > .nav {
     display: flex;
     gap: 40px;
     margin-left: 40px;
     align-items: center;
 }
 
-#navbar>.menu:hover > .menu-list {
+#navbar > .menu:hover > .menu-list {
     display: flex;
 }
-#navbar>.nav>.nav-content:hover{
+#navbar > .nav > .nav-content:hover {
     color: rgb(224, 42, 42);
 }
