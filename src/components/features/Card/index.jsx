@@ -1,6 +1,7 @@
 import React from 'react'
 import './styles.css'
 import { useNavigate } from 'react-router-dom'
+import { Button } from '@mui/material'
 
 export default function Card({ itemId, shape, material, image, title, price, discount }) {
     const navigate = useNavigate()
