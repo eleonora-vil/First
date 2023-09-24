@@ -6,6 +6,7 @@
     margin: 30px 0;
 }
 #item-container > .name {
+    border-radius: 10px;
     padding: 5px 20px;
     background-color: #58c0c7;
     color: white;
