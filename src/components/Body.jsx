@@ -1,17 +1,14 @@
-import React from "react";
-import "./Body.css";
+import React from 'react'
+import './Body.css'
 export default function Body() {
-  return (
-    <div id="body">
-      <div className="body-logo">
-        <img
-          className="logo-img"
-          src="https://wallpapers.com/images/featured/soft-aesthetic-cei80uravrnl6ltm.jpg"
-        />
-      </div>
-      <div className="body-bottom">
-        <div className="service">
-          {/* <div className="service-img">
+    return (
+        <div id="body">
+            <div className="body-logo">
+                <img className="logo-img" src="https://wallpapers.com/images/featured/soft-aesthetic-cei80uravrnl6ltm.jpg" />
+            </div>
+            <div className="body-bottom">
+                <div className="service">
+                    {/* <div className="service-img">
             <img
               className="img"
               src="https://longchim.vn/wp-content/uploads/2023/05/mien-phi-doi-tra.jpg"
@@ -25,11 +22,11 @@ export default function Body() {
               src="https://longchim.vn/wp-content/uploads/2023/05/giao-hang-toan-quoc.jpg"
             />
           </div> */}
-        </div>
-        <div className="des">
-          <h2>Bica – Shop Mua Bán Lồng Chim Đẹp Giá Rẻ & Cao Cấp</h2>
-        </div>
-        {/* <div className="content">
+                </div>
+                <div className="des">
+                    <h2>Bica – Shop Mua Bán Lồng Chim Đẹp Giá Rẻ & Cao Cấp</h2>
+                </div>
+                {/* <div className="content">
           <h3>Lồng chim chào mào</h3>
         </div>
         <div className="item">
@@ -40,7 +37,7 @@ export default function Body() {
             <div className="type-name">Lồng Chào Mào tre già</div>
           </div>
         </div> */}
-      </div>
-    </div>
-  );
+            </div>
+        </div>
+    )
 }
