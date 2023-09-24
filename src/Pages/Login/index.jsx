@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import jwtDecode from 'jwt-decode'
-import './Login.css'
+import './styles.css'
 
 const Login = () => {
     const [phone, setPhone] = useState('')
@@ -20,18 +20,18 @@ const Login = () => {
         console.log(userObject)
         setUser(userObject)
     }
-    useEffect(() => {
-        /*global google*/
-        google.accounts.id.initialize({
-            client_id: '590992019533-vg4un67h63tn57dvcldeb69oovkp715r.apps.googleusercontent.com',
-            callback: handlecallbackResponse
-        })
+    // useEffect(() => {
+    //     /*global google*/
+    //     google.accounts.id.initialize({
+    //         client_id: '590992019533-vg4un67h63tn57dvcldeb69oovkp715r.apps.googleusercontent.com',
+    //         callback: handlecallbackResponse
+    //     })
 
-        google.accounts.id.renderButton(document.getElementById('google'), {
-            theme: 'outline',
-            size: 'large'
-        })
-    }, [])
+    //     google.accounts.id.renderButton(document.getElementById('google'), {
+    //         theme: 'outline',
+    //         size: 'large'
+    //     })
+    // }, [])
 
     const handleSubmit = (e) => {
         e.preventDefault()
@@ -46,7 +46,7 @@ const Login = () => {
     }
 
     return (
-        <div className="cover">
+        <div className="cover" id="login">
             <div className="logo-container">
                 <div className="logo"></div>
             </div>
