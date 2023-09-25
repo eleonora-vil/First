@@ -1,45 +1,45 @@
-@media (min-width: 500px) {
-    #login .cover {
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+    
+@media (min-width: 500px){
+        
+    .login-cover{
         background-color: white;
-        width: 100%;
-        height: 100vh;
-        position: relative;
         border-radius: 1em;
         box-shadow: 1em 1em 2em rgb(100, 156, 156);
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-around;
     }
 
-    #login button:active {
-        color: #0a7f7c;
-        background-color: #2fc8c4;
+    button:active{
+        color: #0A7F7C;
+        background-color: #2FC8C4;
     }
 
-    #login button:focus {
+    button:focus{
         color: aliceblue;
         transform: scale(1.05);
     }
+
 }
 
-#login .cover {
+.login-cover{
     background-color: white;
     width: 30em;
     height: 35em;
     position: relative;
     border-radius: 1em;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-direction: column;    
+    align-items: center; 
     justify-content: space-around;
 }
 
-#login .logo {
-    background-image: url(../Icons/logo.png);
+.bica-logo{
+    background-image: url(../../components/icons/logo.png);
 }
 
-#login #login .logo-container {
+.logo-container{
     position: relative;
     width: 80%;
     height: 3em;
@@ -48,7 +48,7 @@
     justify-content: space-around;
 }
 
-#login .logo-container div {
+.logo-container div{
     width: 35%;
     height: 100%;
     background-position: center;
@@ -57,15 +57,16 @@
     cursor: pointer;
 }
 
-#login .page {
+.login-page{
     height: 100vh;
     width: 100%;
-    display: flex;
+    display: flex; 
     justify-content: center;
     align-items: center;
 }
 
-#login form {
+
+form.login{
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -73,7 +74,7 @@
     align-items: center;
 }
 
-#login input {
+input.userinput{
     border: none;
     background-color: rgb(229, 226, 226);
     height: 4em;
@@ -83,16 +84,16 @@
     padding: 2em;
 }
 
-#login input:focus {
-    outline-color: #2fc8c4;
+input.userinput:focus{
+    outline-color: #2FC8C4;
 }
 
-#login button {
+button#login-btn{
     border: none;
     width: 25%;
     height: 3.5em;
-    color: #0a7f7c;
-    background-color: #2fc8c4;
+    color: #0A7F7C;
+    background-color: #2FC8C4;
     display: flex;
     font-size: medium;
     justify-content: center;
@@ -102,22 +103,27 @@
     cursor: pointer;
 }
 
-#login button:hover {
+button#login-btn:hover{
     color: aliceblue;
     transform: scale(1.05);
 }
 
-#login .alt-login {
+.alt-login{
     position: relative;
     bottom: 2em;
 }
 
-#login .userimg {
+.userimg{
     border-radius: 50%;
 }
 
-#login input::-webkit-outer-spin-button,
-#login input::-webkit-inner-spin-button {
-    -webkit-appearance: none;
-    margin: 0;
+.suggestion{
+    position: relative;
+    bottom: 1em;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+-webkit-appearance: none;
+margin: 0;
 }
