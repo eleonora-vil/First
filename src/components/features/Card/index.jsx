@@ -35,3 +35,17 @@ export default function Card({ itemId, shape, material, image, title, price, dis
         </div>
     )
 }
+
+function Template_Card() {
+    return (
+        <Card
+            discount={1000000}
+            image={'https://longchim.vn/wp-content/uploads/2023/05/long-cu-gay-qua-dao-02-1.jpg'}
+            itemId={'P001'}
+            material={'Wood iron'}
+            price={1100000}
+            shape={'Rectangle'}
+            title={'Bird cage v1.0'}
+        />
+    )
+}

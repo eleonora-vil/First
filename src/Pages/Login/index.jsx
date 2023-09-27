@@ -78,7 +78,7 @@ const Login = () => {
                 {Object.keys(user).length !== 0 && (
                     <div>
                         <img className="userimg" src={user.picture} />
-                        <h3>Hi {user.given_name}</h3>
+                        <h3 style={{ textAlign: 'center' }}>Hi {user.given_name}</h3>
                     </div>
                 )}
             </div>
