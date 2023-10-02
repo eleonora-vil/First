@@ -2,9 +2,9 @@
     background-color: antiquewhite;
     display: flex;
     gap: 130px;
-    padding: 5px 300px;
+    margin-top: 20px;
+    padding: 20px 300px;
     width: 100%;
-    position: absolute;
     bottom: 0;
     height: max-content;
 }

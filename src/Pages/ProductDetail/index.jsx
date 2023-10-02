@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
 import Header from '../../components/common/Header'
 import Navbar from '../../components/common/Navbar'
@@ -19,10 +19,12 @@ export default function ProductDetails(itemId, shape, material, image, title, pr
             setQuantity((prevCount) => prevCount + 1)
         }
     }
+    // fetch api
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [])
     return (
         <div>
-            <Header />
-            <Navbar />
             <div id="product-container">
                 <div className="product">
                     <div className="img-container">

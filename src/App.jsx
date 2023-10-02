@@ -2,16 +2,25 @@ import { Route, Routes } from 'react-router-dom'
 import Home from './Pages/Home'
 import Login from './Pages/Login'
 import ProductDetails from './Pages/ProductDetail'
-import Test from './Pages/Test'
-
+import Cart from './Pages/Cart'
+import User from './Pages/User'
+import Header from './components/common/Header'
+import Navbar from './components/common/Navbar'
+import Footer from './components/common/Footer'
 function App() {
     return (
-        <Routes>
-            <Route element={<Home />} path="/" />
-            <Route element={<Login />} path="/login" />
-            <Route element={<ProductDetails />} path="/products/:productId" />
-            <Route element={<Test />} path="/test" />
-        </Routes>
+        <div>
+            <Header />
+            <Navbar />
+            <Routes>
+                <Route element={<Home />} path="/" />
+                <Route element={<Login />} path="/login" />
+                <Route element={<ProductDetails />} path="/products/:productId" />
+                <Route element={<Cart />} path="/cart" />
+                <Route element={<User />} path="/user" />
+            </Routes>
+            <Footer />
+        </div>
     )
 }
 
