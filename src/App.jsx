@@ -1,27 +1,33 @@
 import { Route, Routes } from 'react-router-dom'
+import Dashboard from './Pages/Admin/Dashboard'
+import Cart from './Pages/Cart'
 import Home from './Pages/Home'
 import Login from './Pages/Login'
 import ProductDetails from './Pages/ProductDetail'
-import Cart from './Pages/Cart'
 import User from './Pages/User'
-import Header from './components/common/Header'
-import Navbar from './components/common/Navbar'
-import Footer from './components/common/Footer'
-import Test from './Pages/Test'
+import AdminLayout from './layouts/AdminLayout'
+import UserLayout from './layouts/UserLayout'
+import NewProduct from './Pages/Admin/NewProduct'
+import NewCoupon from './Pages/Admin/NewCoupon'
+import Products from './Pages/Admin/Products'
 function App() {
     return (
         <div>
-            <Header />
-            <Navbar />
             <Routes>
-                <Route element={<Home />} path="/" />
-                <Route element={<Login />} path="/login" />
-                <Route element={<ProductDetails />} path="/products/:productId" />
-                <Route element={<Cart />} path="/cart" />
-                <Route element={<User />} path="/user" />
-                <Route element={<Test />} path="/test" />
+                <Route element={<UserLayout />} path="/">
+                    <Route element={<Home />} path="" />
+                    <Route element={<Login />} path="login" />
+                    <Route element={<ProductDetails />} path="products/:productId" />
+                    <Route element={<Cart />} path="cart" />
+                    <Route element={<User />} path="user" />
+                </Route>
+                <Route element={<AdminLayout />} path="/admin">
+                    <Route element={<Dashboard />} path="" />
+                    <Route element={<NewProduct />} path="new-product" />
+                    <Route element={<NewCoupon />} path="new-coupon" />
+                    <Route element={<Products />} path="products" />
+                </Route>
             </Routes>
-            <Footer />
         </div>
     )
 }

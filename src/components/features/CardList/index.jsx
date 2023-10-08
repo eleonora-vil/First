@@ -2,7 +2,7 @@ import React from 'react'
 import './styles.css'
 import Card from '../Card'
 
-export default function CardList({ itemName }) {
+export default function CardList({ itemName, itemList }) {
     return (
         <div id="item-container">
             <div className="name">
@@ -10,6 +10,9 @@ export default function CardList({ itemName }) {
                 <button className="more">See more</button>
             </div>
             <div className="item-list">
+                {/* {itemList.slice(0, 5).map((item) => (
+                    <Card key={item.id} discount={item.discount} image={item.image} />
+                ))} */}
                 <Template_Card />
                 <Template_Card />
                 <Template_Card />
