@@ -11,11 +11,11 @@ export default function Home() {
                 </div>
                 <div className="body-bottom">
                     <div className="des">
-                        <div className="text-3xl font-bold ">Bica – Shop Mua Bán Lồng Chim Đẹp Giá Rẻ & Cao Cấp</div>
+                        <div className="text-3xl font-bold ">ABC</div>
                     </div>
                 </div>
-                <CardList itemName="HELLO" />
-                <CardList itemName="HELLO" />
+                {/* <CardList itemName="HELLO" />
+                <CardList itemName="HELLO" /> */}
             </main>
         </div>
     )

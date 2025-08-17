@@ -8,24 +8,24 @@ export default function Header() {
         <div id="header">
             <section className="header-top">
                 <div className="service">
-                    Chăm sóc khách hàng:
+                    {/* Chăm sóc khách hàng:
                     <span className="phone" onClick={() => navigate(`/user`)}>
                         0334567856
-                    </span>
+                    </span> */}
                 </div>
-                <Link to="/login" className="login">
+                {/* <Link to="/login" className="login">
                     Login
-                </Link>
+                </Link> */}
             </section>
             <section className="header-bottom">
                 <div className="logo">BICA</div>
-                <form className="search-container">
+                {/* <form className="search-container">
                     <input className="search-bar" type="text" placeholder="Search" />
                     <button className="search-button">🔍︎</button>
-                </form>
-                <button className="cart-button" onClick={() => navigate(`/cart`)}>
+                </form> */}
+                {/* <button className="cart-button" onClick={() => navigate(`/cart`)}>
                     Cart 🛒
-                </button>
+                </button> */}
             </section>
         </div>
     )

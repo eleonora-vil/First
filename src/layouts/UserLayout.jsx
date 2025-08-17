@@ -8,11 +8,11 @@ export default function UserLayout() {
     return (
         <>
             <Header />
-            <Navbar />
+            {/* <Navbar /> */}
             <div>
                 <Outlet />
             </div>
-            <Footer />
+            {/* <Footer /> */}
         </>
     )
 }
